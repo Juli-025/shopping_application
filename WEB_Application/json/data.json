@@ -1,0 +1,92 @@
+{
+  "friends": [
+    {
+      "id": "zorro",
+      "firstName": "Zorro",
+      "lastName": "Lorenor",
+      "email": "zorro@nodirection.com"
+    },
+    {
+      "id": "law",
+      "firstName": "Law",
+      "lastName": "Trafalgar",
+      "email": "law@hatesbread.com"
+    }
+  ],
+  "tags": [
+    { "title": "Getränk" },
+    { "title": "Backwaren" }
+  ],
+  "items": [
+    {
+      "id": "item-1",
+      "title": "Milch",
+      "description": "Haltbar Milch",
+      "tag": "Getränk",
+      "imageUrl": "../img/milch.png"
+    },
+    {
+      "id": "item-2",
+      "title": "Brot",
+      "description": "geschnitten",
+      "tag": "Backwaren",
+      "imageUrl": "../img/brot.png"
+    },
+    {
+      "id": "item-3",
+      "title": "Wasser",
+      "description": "1L Wasser",
+      "tag": "Getränk",
+      "imageUrl": "../img/wasser.png"
+    },
+    {
+      "id": "item-4",
+      "title": "Toast",
+      "description": "kleinere Portion",
+      "tag": "Backwaren",
+      "imageUrl": "../img/toast.png"
+    }
+  ],
+  "purchases": [
+    {
+      "id": "purchase-1",
+      "title": "Wocheneinkauf",
+      "items": [
+        { "id": "item-1", "title": "Milch", "quantity": 2, "tag": "Getränk" },
+        { "id": "item-2", "title": "Brot", "quantity": 1, "tag": "Backwaren" }
+      ]
+    },
+    {
+      "id": "purchase-2",
+      "title": "Sonderangebot",
+      "items": [
+        { "id": "item-3", "title": "Wasser", "quantity": 1, "tag": "Getränk" },
+        { "id": "item-4", "title": "Toast", "quantity": 3, "tag": "Backwaren" }
+      ]
+    }
+  ],
+  "lists": [
+    {
+      "id": "list-1",
+      "title": "Meine Liste",
+      "purchases": [
+        {
+          "id": "purchase-1",
+          "title": "Wocheneinkauf",
+          "items": [
+            { "id": "item-1", "title": "Milch", "quantity": 2, "tag": "Getränk" },
+            { "id": "item-2", "title": "Brot", "quantity": 1, "tag": "Backwaren" }
+          ]
+        },
+        {
+          "id": "purchase-2",
+          "title": "Sonderangebot",
+          "items": [
+            { "id": "item-3", "title": "Wasser", "quantity": 1, "tag": "Getränk" },
+            { "id": "item-4", "title": "Toast", "quantity": 3, "tag": "Backwaren" }
+          ]
+        }
+      ]
+    }
+  ]
+}
